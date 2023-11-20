@@ -1,0 +1,54 @@
+/* Cabeçalho */
+header {
+    /* Posicione o cabeçalho fixo na parte superior da página */
+    position: fixed; 
+    top: 0; /* Defina a posição superior para 0 */
+    left: 0; /* Defina a posição esquerda para 0 */
+    width: 100%; /* Defina a largura para 100% da viewport */
+    background-color: rgb(174, 255, 0); /* Defina a cor de fundo para verde limão */
+    color: rgb(0, 0, 255); /* Defina a cor do texto para azul */
+    padding: 20px; /* Adicione algum preenchimento ao cabeçalho */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adicione uma sombra sutil ao cabeçalho */
+  }
+  
+  header h1 { /* Estilo do elemento h1 do cabeçalho */
+    font-size: 30px; /* Defina o tamanho da fonte para 30px */
+    font-weight: bold; /* Deixe o texto em negrito */
+    text-align: center; /* Centralize o texto */
+    font-family: 'Comic Sans MS', cursive; /* Defina a fonte para Comic Sans */
+  }
+  
+  
+  /* Rodapé */
+  footer {
+    /* Posicione o rodapé fixo na parte inferior da página */
+    position: fixed; 
+    bottom: 0; /* Defina a posição inferior para 0 */
+    left: 0; /* Defina a posição esquerda para 0 */
+    width: 100%; /* Defina a largura para 100% da viewport */
+    background-color: black; /* Defina a cor de fundo para preto */
+    color: rgb(255, 255, 255); /* Defina a cor do texto para branco */
+    padding: 20px; /* Adicione algum preenchimento ao rodapé */
+    text-align: center; /* Centralize o texto */
+  }
+  
+  footer p { /* Estilo do elemento p do rodapé */
+    font-size: 14px; /* Defina o tamanho da fonte para 14px */
+    margin-bottom: 0; /* Remova a margem inferior */
+  }
+  
+  /* Corpo */
+  body {
+    margin: 0; /* Remova a margem padrão do corpo */
+    padding: 0; /* Remova o preenchimento padrão do corpo */
+    font-family: sans-serif; /* Defina a família da fonte para uma fonte sem serifa */
+    background-color: white; /* Defina a cor de fundo para branco */
+    color: black; /* Defina a cor do texto para preto */
+    
+  }
+  
+    p {
+        max-width: 800px;
+        word-break: break-all;
+      }
+    
